@@ -1,5 +1,6 @@
 <?php
-
+//this is a basic way of defining a schema; however, it doesn't work with a foreach loop to go through properties, it needs converted to an array
+//it is also missing the link to the schema definition.
 	$thing = new Schema_CreativeWork;
 	$thing->setDescription('description');
 	$thing->setImage('IMAGE');
